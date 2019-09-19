@@ -1,0 +1,110 @@
+#container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.box {
+    position: relative;
+    display: block;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-style: solid;
+    border-width: 5px;
+    width: 85%;
+    height: 27vh;
+}
+.boxitem1 {
+    height: 18vh;
+    width: 4%;
+    background: darkslateblue;
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -36%)
+}
+
+.boxitem2 {
+    height: 23vh;
+    width: 30%;
+    background: green;
+    margin-left: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.boxitem3 {
+    height: 23vh;
+    width: 15%;
+    background: lightskyblue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 45%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.box2 {
+    position: relative;
+    display: block;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-style: dotted;
+    border-width: 5px;
+    width: 85%;
+    height: 35vh;
+}
+
+.box2item1 {
+    height: 23vh;
+    width: 90%;
+    background: wheat;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -116%);
+    box-shadow: 5px 8px 5px 3px #252525;
+}
+
+.box3 {
+    position: relative;
+    display: block;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    background: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: lightgray;
+    width: 40%;
+    height: 35vh;
+    box-shadow: 5px 5px 3px -2px rgb(156, 162, 168);
+}
+
+.box3item1 {
+    color: darkslateblue;
+    font-size: 5vh;
+    height: 23vh;
+    width: 90%;
+    margin-left: 36%;
+    margin-right: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -60%)
+
+}
+
+
